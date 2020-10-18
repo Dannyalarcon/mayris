@@ -1,0 +1,90 @@
+
+
+
+.title-box {
+    text-align: center;
+
+}
+thead{
+    text-align: center;
+}
+th{
+    font-family: 'Lobster', cursive; 
+}
+
+.btn-nueva {
+    margin: 2px 0 14px 0;
+}
+td, th,button{
+    text-align: center;
+}
+
+#tabla{
+    padding: 1px 1px 0px 1px;
+
+    background: white;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1024px){
+    #tabla{
+        padding: 1px 1px 3px 1px;
+
+        background: white;
+        border-radius: 8px;
+    }
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 1rem 0;
+    }
+  
+
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        position: relative;
+        padding-left: 50% !important;
+    }
+
+    td:before {
+        /* Now like a table header */
+
+        content: attr(data-th) ": ";
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        line-height: 45px;
+        font-family: 'Lobster', cursive; 
+
+    }
+    
+    .boto {
+        padding: .3px; 
+        font-size: 12px;
+    } 
+
+}
+.texto{
+    text-transform: capitalize;
+}
+.table td, table th{
+vertical-align: text-bottom !important;
+
+}

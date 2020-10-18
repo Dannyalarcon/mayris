@@ -1,0 +1,87 @@
+body{
+  background: linear-gradient(#e1bee7, #ab47bc);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.profile-img-card{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.breadcrumbs {
+  background: rgba(0,0,0,0.2);
+
+  padding: 10px 0;
+  color: black;
+  font-size: 0;
+
+}
+.breadcrumbs a,
+.breadcrumbs .last-crumb {
+  color:black;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 20px 0 12px;
+  position: relative;
+}
+.breadcrumbs a:after {
+  border-top: 1px solid #555;
+  border-right: 1px solid #555;
+  content: "";
+  display: block;
+  margin: -6px 0 0 0;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  right: 0;
+  -ms-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+ /* -webkit-transform:rotate(45deg);*/
+  transform:rotate(45deg);
+}
+.hidden {
+  display: none;
+}
+span{
+  font-family: 'Lobster', cursive; 
+  opacity: 0.7;
+}
+h1{
+  margin: 1px;
+  color: black;
+  font-family: "Lobster", cursive;
+  font-size: 3em !important;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+a{
+  text-decoration: none !important;
+  color: #000 !important;
+}
+.a {
+  font-family: "Lobster", cursive !important;
+}
+.fab {
+  font-size: 25px;
+}
+.far {
+  font-size: 25px;
+}
+.fas {
+  font-size: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-box: inset 0 0 6px rgb(0, 0, 0);
+  background-color: #ab47bc;
+}

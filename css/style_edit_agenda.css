@@ -1,0 +1,110 @@
+.custom-select{
+    border: 1px solid black;
+
+
+}
+select{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(#e1bee7, #ab47bc );
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.profile-img-card {
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto ;
+    display: block;
+
+}
+h1{
+    margin: 1px;
+    color: black;
+    font-family: 'Lobster', cursive; 
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#formulario{
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+.form-control{
+    border: 1px solid black;
+}
+
+#boton{
+    margin-bottom: 15px;
+}
+input{
+    text-align: center;
+}
+
+label{
+    font-family: 'Lobster', cursive; 
+}
+button, a{
+    font-family: 'Lobster', cursive; 
+}
+.breadcrumbs {
+    background: rgba(0,0,0,0.2);
+
+    padding: 10px 0;
+    color: black;
+    font-size: 0;
+}
+
+.breadcrumbs a,
+.breadcrumbs .last-crumb {
+    color:black;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 20px 0 12px;
+    position: relative;
+}
+.breadcrumbs a:after {
+    border-top: 1px solid #555;
+    border-right: 1px solid #555;
+    content: "";
+    display: block;
+    margin: -6px 0 0 0;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 0;
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.hidden {
+    display: none;
+}
+span{
+    font-family: 'Lobster', cursive; 
+    opacity: 0.7;
+}
+.Fields {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    font-family: 'Lobster', cursive; 
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

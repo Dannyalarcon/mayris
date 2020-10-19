@@ -81,7 +81,7 @@ if ($_SESSION['rol'] != 1) {
         <tbody>
           <tr>
             <td data-th="ID"><?php echo $mostrar['id_deuda'] ?></td>
-            <td data-th="Descripción"><?php echo $mostrar['descripcion'] ?></td>
+            <td data-th="Descripción">Q.<?php echo $mostrar['descripcion'] ?>.00</td>
             <td data-th="Valor"><?php echo $mostrar['precio'] ?></td>
             <td data-th="Fecha"><?php echo $date ?></td>
             <td data-th="Accion">

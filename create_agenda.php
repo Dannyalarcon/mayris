@@ -47,6 +47,7 @@ if (!isset($_SESSION['user'])) {
     </div>
     <center>
         <a title="Agenda" class="a" href="agenda.php"><button type="button" class="btn btn-primary"><i class="fas fa-angle-double-left"></i></button></a>
+        <a title="Inicio" class="a" href="principal.php"><button type="button" class="btn btn-primary"><i class="fas fa-home"></i></button></a>
     </center>
     <br>
     <div id="formulario" class="container">

@@ -90,7 +90,7 @@ $row = mysqli_fetch_array($sql)
             </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
-                    <center><label for="text"><b>dpi</b></label></center>
+                    <center><label for="text"><b>DPI</b></label></center>
                     <input type="text" name="dpi" autocomplete="off" class="form-control" placeholder="dpi" value="<?php echo $row['dpi'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
@@ -104,30 +104,30 @@ $row = mysqli_fetch_array($sql)
             </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
-                    <center><label for="text"><b>fechadenacimiento</b></label></center>
+                    <center><label for="text"><b>Fecha de nacimiento</b></label></center>
                     <input type="date" name="fechadenacimiento" autocomplete="off" class="form-control" placeholder="00/00/2020" value="<?php echo $row['fechadenacimiento'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                    <center><label for="text"><b>correo</b></label></center>
+                    <center><label for="text"><b>Correo</b></label></center>
                     <input type="text" name="correo" autocomplete="off" class="form-control" placeholder="ejemplo@gmail.com" value="<?php echo $row['correo'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                    <center> <label for="text"><b>telefono</b></label></center>
+                    <center> <label for="text"><b>Teléfono</b></label></center>
                     <input type="text" name="telefono" autocomplete="off" class="form-control" placeholder="1234-5678" value="<?php echo $row['telefono'] ?>" disabled />
                 </div>
             </div>
 
             <div class="form-row center">
                 <div class="form-group col-md-4">
-                    <center> <label for="text"><b>rol</b></label></center>
+                    <center> <label for="text"><b>Rol</b></label></center>
                     <input type="text" autocomplete="off" name="estatus" class="form-control" id="inputAddress" placeholder="estatus" value="<?php echo $row['rol'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                    <center> <label for="text"><b>direccion</b></label></center>
+                    <center> <label for="text"><b>Dirección</b></label></center>
                     <input type="text" autocomplete="off" name="direccion" class="form-control" id="inputAddress" placeholder="usuario" value="<?php echo $row['direccion'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                    <center> <label for="text"><b>salario</b></label></center>
+                    <center> <label for="text"><b>Salario</b></label></center>
                     <input type="text" autocomplete="off" name="salario" class="form-control" id="inputAddress" placeholder="Q.00.00" value="<?php echo $row['salario'] ?>" disabled />
                 </div>
             </div>
@@ -138,11 +138,11 @@ $row = mysqli_fetch_array($sql)
                     <input type="text" autocomplete="off" name="estatus" class="form-control" id="inputAddress" placeholder="Usuario" value="<?php echo $row['user'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                <center> <label for="text"><b>pass</b></label></center>
+                <center> <label for="text"><b>Contraseñ</b></label></center>
                     <input type="text" autocomplete="off" name="estatus" class="form-control" id="inputAddress" placeholder="pass" value="<?php echo $row['pass'] ?>" disabled />
                 </div>
                 <div class="form-group col-md-4">
-                    <center> <label for="text"><b>estatus</b></label></center>
+                    <center> <label for="text"><b>Estatus</b></label></center>
                     <input type="text" autocomplete="off" name="estatus" class="form-control" id="inputAddress" placeholder="estatus" value="<?php echo $row['estatus'] ?>" disabled />
                 </div>
             </div>
